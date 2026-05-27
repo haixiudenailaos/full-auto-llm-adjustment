@@ -1,0 +1,4 @@
+interface:
+  display_name: "全自动大模型调整"
+  short_description: "先收集用户线索，再立契约并在陌生环境中自动迭代推进"
+  default_prompt: "Use $full-auto-llm-adjustment when entering an unfamiliar project or environment: first interact with the user to collect high-value clues, then inspect the environment from those clues, create or update AGENT.md or CLAUDE.md to constrain behavior, and continue with a Hermes-style loop of summarizing state, inferring bottlenecks, checking for dead ends, running targeted research, and validating minimal smokes."
